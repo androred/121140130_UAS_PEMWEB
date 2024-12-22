@@ -15,7 +15,7 @@ ob_start();
 </head>
 <body>
     <div class="container">
-        <h1 class="title">Tugas Mata Kuliah Website</h1>
+        <h1 class="title">Form Data Mahasiswa</h1>
 
         <!-- Form Input -->
         <form id="user-form" method="POST" action="saveData.php">
@@ -50,7 +50,7 @@ ob_start();
             <button type="submit" class="btn btn-primary">Submit</button>
         </form>
 
-        <h2 class="subtitle">Data Pengguna</h2>
+        <h2 class="subtitle">Data Mahasiswa</h2>
         <table id="data-table" class="table">
             <thead>
                 <tr>
